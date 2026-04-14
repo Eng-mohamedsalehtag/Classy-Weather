@@ -1,16 +1,54 @@
-# React + Vite
+# 🌤️ Classy Weather
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, interactive weather application built with **React** and **Vite**. The app allows users to search for any city globally and displays a beautifully formatted, multi-day weather forecast using live data.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Live Weather Data**: Fetches precise, multi-day weather forecasts utilizing the [Open-Meteo API](https://open-meteo.com/).
+- **City Geocoding**: Automatically resolves city names to geographical coordinates.
+- **Dynamic Icons**: Displays beautiful Unicode weather icons (☀️, 🌧, 🌩, etc.) based on precise WMO weather codes.
+- **Smart Emoji Flags**: Dynamically translates country codes into regional flag emojis directly native to the browser.
+- **Responsive & Modern**: Offers a sleek "Classy" UI that renders seamlessly.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React.js ⚛️
+- **Build Tool**: Vite ⚡
+- **Languages**: HTML, CSS, JavaScript (ES6+)
+- **APIs**: 
+  - [Open-Meteo Geocoding API](https://open-meteo.com/en/docs/geocoding-api) for city resolution.
+  - [Open-Meteo Weather Forecast API](https://open-meteo.com/en/docs) for weather figures.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+Make sure you have Node.js installed on your machine.
+
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-url>
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd classy-weather
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open the app in your browser:**
+   Go to the URL provided in your terminal (typically `http://localhost:5173`).
+
+---
+
+*Enjoy tracking the weather anywhere in the world!* 🌍🚀
